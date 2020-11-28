@@ -81,7 +81,7 @@ function alphanumeric(input)
 {
     const letters = /^[0-9a-zA-Z_ ]+$/;
     if(input.value.match(letters))
-    {
+    
         return null;
     }
     return "May only contain numbers and letters.";
