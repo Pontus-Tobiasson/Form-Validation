@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <title>Formulär</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Form.css">
+    <script src="Form.js"></script>
+</head>
+<body>
+    <form name="myForm" onsubmit="return isValidInput()"> <!-- action="/action_page.php" onsubmit="return validateForm()" method="post" -->
+
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname">
+        <p id=fnameError class="error"></p>
+
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname"><br>
+        <p id=lnameError class="error"></p>
+
+        <label for="phone">Phone number</label><br>
+        <input type="text" id="phone"><br>
+        <p id=phoneError class="error"></p>
+
+        <div class="floatleft">
+            <label for="address">Address</label><br>
+            <input type="text" id="address"><br>
+            <p id=addressError class="error"></p>
+        </div>
+        <div class="floatright">
+            <label for="zip">Zip Code</label><br>
+            <input type="text" id="zip">
+            <p id=zipError class="error"></p>
+        </div>
+
+        <div class="floatleft">
+            <label for="country">Country</label><br>
+            <input type="text" id="country">
+            <p id=countryError class="error"></p>
+        </div>
+        <div class="floatright">
+            <label for="county">County</label><br>
+            <input type="text" id="county">
+            <p id=countyError class="error"></p>
+        </div><br>
+
+        <label for="email">Email address</label><br>
+        <input type="text" id="email"><br>
+        <p id=emailError class="error"></p>
+
+        <div class = "horizontal-center">
+            <input type="submit" class="submit-button" value="Submit">
+
+        </div>
+    </form>
+</body>
+</html>

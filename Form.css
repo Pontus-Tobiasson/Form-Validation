@@ -1,0 +1,105 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #4682B4;
+    color: #000000;
+}
+
+body {
+    display:flex;
+}
+
+div {
+    width: 100%;
+}
+
+/* For the form */
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #778899;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+}
+
+/* For label text */
+label {
+    height: 18px;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: left;
+    font-size: 18px;
+}
+
+/* For input text */
+input {
+    height: 20px;
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #696969;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* For the submit button */
+input.submit-button {
+    height: 35px;
+    width: 100%;
+    margin: auto;
+    background-color: #008000;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* center object horizontally */
+div.horizontal-center {
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+}
+
+/* Left input field */
+div.floatleft {
+    float: left;
+    width: 45%;
+    height: 66px;
+    padding: 0% 5% 0% 0%;
+}
+
+/* right input field */
+div.floatright {
+    float: right;
+    width: 45%;
+    height: 66px;
+    padding: 0% 0% 0% 5%;
+}
+
+/* Error text */
+.error {
+    background-color: inherit;
+    color:red;
+}
+
+/* Paragraph text which is currently only used for error text */
+p {
+    height: 14px;
+    width: 100%;
+    margin: 3px 0px 3px 0px;
+    padding: 0px;
+    background-color: #FF0000;
+    color: #000000;
+    text-align: left;
+    font-size: 14px;
+}
