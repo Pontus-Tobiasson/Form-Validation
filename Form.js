@@ -57,7 +57,7 @@ function notEmpty(input)
 // Check that the input is alphabetic
 function alphabetic(input)
 {
-    const letters = /^[A-Za-z]+$/;
+    const letters = /^[A-Za-z_ ]+$/;
     if(input.value.match(letters))
     {
         return null;
@@ -68,7 +68,7 @@ function alphabetic(input)
 // Check that the input is numeric
 function numeric(input)
 {
-    const numbers = /^[0-9]+$/;
+    const numbers = /^[0-9_ ]+$/;
     if(input.value.match(numbers))
     {
         return null;
@@ -79,7 +79,7 @@ function numeric(input)
 // Check that the input is alphanumeric
 function alphanumeric(input)
 {
-    const letters = /^[0-9a-zA-Z]+$/;
+    const letters = /^[0-9a-zA-Z_ ]+$/;
     if(input.value.match(letters))
     {
         return null;
