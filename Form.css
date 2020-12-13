@@ -40,7 +40,7 @@ label {
 
 /* For input text */
 input {
-    height: 20px;
+    height: 25px;
     width: 100%;
     padding: 0px;
     border: 1px solid #696969;
@@ -48,6 +48,12 @@ input {
     color: #000000;
     border-radius: 5px;
     text-align: left;
+    text-indent: 5px;
+}
+
+input:focus{
+    outline: 5px;
+    box-shadow: 0px 0px 5px #4682B4;
 }
 
 /* For the submit button */
